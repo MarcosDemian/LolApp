@@ -1,0 +1,253 @@
+@font-face{
+  font-family: "Spiegel";
+  src: url(../../typography/spiegel.ttf);
+}
+
+@font-face{
+  font-family: "Beaufort";
+  src: url(../../typography/Beaufort.ttf);
+}
+
+@font-face {
+  font-family: "Friz";
+  src: url(../../typography/Friz\ Quadrata\ Std\ Medium.otf);
+}
+
+
+/*CHAMPIONS LIST*/
+.global{
+  width: 100vw;
+}
+
+.champions_list {
+  width: 100%;
+  text-align: center;
+}
+
+.champions_list ul {
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  padding: 0;
+}
+
+.champions_list li {
+  width: 200px;
+  height: 280px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s step-end;
+  animation: flash 2s;
+}
+
+.li_image {
+  width: 100%;
+  height: 100%;
+}
+
+/*.li-name {
+  
+  width: 100%;
+  height: 10%;
+} */
+
+/* li.selected {
+    
+} */
+
+.champions_list li > span {
+  width: 100%;
+  height: 15%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(208, 168, 92);
+  text-shadow: 0px 0px 6px rgba(0,0,0,0.93);
+  position: absolute;
+  font-family: "Friz";
+  font-size: 25px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.champions_list li:hover .li_image{
+  border: solid 2px rgb(208, 168, 92);
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  border-radius: 2px;
+}
+
+.champions_list li:hover span{
+  opacity: 1;
+}
+
+.champions_list li:hover {
+  cursor: pointer;
+}
+
+.champions_list img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title p {
+  letter-spacing: 5px;
+  text-transform:uppercase;
+  font-family: "FrizQuadrataMedium";
+  font-style: italic;
+  font-weight: 600;
+  margin: 0;
+}
+
+.title h2 {
+  color: black;
+  font-size: 500%;
+  letter-spacing: 5px;
+  text-transform:uppercase;
+  font-family: "Beaufort";
+  font-style: italic;
+  margin: 0;
+}
+
+.title span {
+  font-size: 0.875rem;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-family: "Spiegel";
+  max-width: 460px;
+}
+
+.Section5{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgb(255, 255, 255) 0%, 
+  rgba(49, 48, 48, 0.897) 5%, rgba(10,10,10,0.04245448179271705) 15%, 
+  rgba(10,10,10,0.04) 85%, rgba(0,0,0,0.9) 95%, rgba(0,0,0,0.9360119047619048) 100%), url("../../images/guardianes.webp");
+  background-attachment: local;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+ul a{
+  text-transform:none;
+}
+
+.Descargar{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  background: #141414;
+  color: #fff;
+  font-family: "FrizQuadrataMedium";
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .3s ease all;
+  border-radius: 0 15px 0 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.Descargar span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+.Descargar::after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: calc(-200px - 60px);
+	border-bottom: 80px solid #286cff;
+	border-right: 80px solid transparent;
+	transition: .4s ease-in-out all;
+}
+
+.Descargar:hover::after {
+	left: 0;
+}
+
+@keyframes flash {
+  0% { opacity: 0; }
+  100% { opacity: 100; }
+}
+
+
+/* @media(min-width:320px) {
+    .champions-list {
+        padding-top: 5px;
+    }
+
+    .champions-list ul {
+        font-size: 0.8em;
+    }
+
+    .champions-list li {
+        width: 145px;
+    }
+
+    .champions-list li > span {
+        font-size: 0.85em;
+    }
+}
+
+@media(min-width:600px) {
+    .champions-list {
+        padding-top: 10px;
+    }
+
+    .champions-list ul {
+        
+        font-size: 0.9em;
+    }
+
+    .champions-list li {
+        width: 140px;
+    }
+}
+
+@media(min-width:900px) {
+    .champions-list {
+        padding-top: 5px;
+    }
+
+    .champions-list li {
+        width: 150px;
+    }
+
+    .champions-list li > span {
+        font-size: 0.9em;
+    }
+}
+ */
