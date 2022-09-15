@@ -7,7 +7,7 @@ import NavBar from "./NavBar";
 function Seeker() {
     const [searchText, setSearchText] = useState("");
     const [playerData, setPlayerData] = useState({});
-    const API_KEY="RGAPI-ea90f820-a2b1-43ba-ae0b-88900e08e9d3";
+    const API_KEY= process.env.REACT_APP_API_KEY;
 
     function searchForPlayer(event){
         var APICallString = "https://la2.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + searchText + "?api_key=" + API_KEY;
