@@ -10,7 +10,7 @@ function Seeker() {
     const API_KEY= process.env.REACT_APP_API_KEY;
 
     function searchForPlayer(event){
-        var APICallString = "https://la2.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + searchText + "?api_key=" + API_KEY;
+        var APICallString = `https://la2.api.riotgames.com/lol/summoner/v4/summoners/by-name/` + searchText + `?api_key=` + `${API_KEY}`;
         axios.get(APICallString).then(function (response) {
             setPlayerData(response.data);
         }).catch(function (error) {
