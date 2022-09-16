@@ -8,32 +8,32 @@ function Footer () {
             <div className={style.Nav}>
                 <a className={style.EfectoA} href="/home">ACERCA DE LEAGUE OF LEGENDS</a>
                 <Link to="/characters" className={style.EfectoA}>GALERIA DE CAMPEONES</Link>
-                <a className={style.EfectoA} href="https://play.google.com/store/apps/details?id=com.riotgames.mobile.leagueconnect&hl=es_419">DESCARGA LA APP DE RIOT MOBILE</a>
+                <a target="_blank" className={style.EfectoA} href="https://play.google.com/store/apps/details?id=com.riotgames.mobile.leagueconnect&hl=es_419">DESCARGA LA APP DE RIOT MOBILE</a>
             </div>
             <div className={style.body}>
             <ul className={style.Social}>
                 <li className={style.Lista}>
-                <a href="https://www.youtube.com/user/RiotGamesLatino/">
+                <a target="_blank" href="https://www.youtube.com/user/RiotGamesLatino/">
                 <img className={style.svg} src="https://i.imgur.com/vx20Wyo.png"/>
                 </a>
                 </li>
                 <li className={style.Lista}>
-                <a href="https://twitter.com/lollatam">
+                <a target="_blank" href="https://twitter.com/lollatam">
                 <img className={style.svg} src="https://i.imgur.com/tGttBjO.png"/>
                 </a>
                 </li>
                 <li className={style.Lista}>
-                <a href="https://www.facebook.com/LeagueofLegendsLatino/">
+                <a target="_blank" href="https://www.facebook.com/LeagueofLegendsLatino/">
                 <img className={style.svg} src="https://i.imgur.com/No6Q9pp.png"/>
                 </a>
                 </li>
                 <li className={style.Lista}>
-                <a href="https://www.instagram.com/juegalol/">
+                <a target="_blank" href="https://www.instagram.com/juegalol/">
                 <img className={style.svg} src="https://i.imgur.com/4jUIvNb.png"/>
                 </a>
                 </li>
                 <li className={style.Lista}>
-                <a href="https://www.reddit.com/r/leagueoflegends/">
+                <a target="_blank" href="https://www.reddit.com/r/leagueoflegends/">
                 <img className={style.svg} src="https://i.imgur.com/KEhRuRd.png"/>
                 </a>
                 </li>

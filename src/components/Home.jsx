@@ -39,19 +39,19 @@ function Home () {
                     ÚNETE A NUESTRAS REDES SOCIALES
                 </div>
                 <div className={style.Icons}>
-                    <a className={style.Alink} href="https://www.instagram.com/juegalol/">
+                    <a target="_blank" className={style.Alink} href="https://www.instagram.com/juegalol/">
                     <img src="https://i.imgur.com/4jUIvNb.png" />
                     </a>
-                    <a className={style.Alink} href="https://discordapp.com/invite/riotgameslatam">
+                    <a target="_blank" className={style.Alink} href="https://discordapp.com/invite/riotgameslatam">
                     <img src="https://i.imgur.com/LOQIpZM.png" />
                     </a>
-                    <a className={style.Alink} href="https://twitter.com/lollatam">
+                    <a target="_blank" className={style.Alink} href="https://twitter.com/lollatam">
                     <img src="https://i.imgur.com/tGttBjO.png" />
                     </a>
-                    <a className={style.Alink} href="https://www.facebook.com/LeagueofLegendsLatino/">
+                    <a target="_blank" className={style.Alink} href="https://www.facebook.com/LeagueofLegendsLatino/">
                     <img src="https://i.imgur.com/No6Q9pp.png" />
                     </a>
-                    <a className={style.Alink} href="https://www.youtube.com/user/RiotGamesLatino/">
+                    <a target="_blank" className={style.Alink} href="https://www.youtube.com/user/RiotGamesLatino/">
                     <img src="https://i.imgur.com/vx20Wyo.png" />
                     </a>
                 </div>
