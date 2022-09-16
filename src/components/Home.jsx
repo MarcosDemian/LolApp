@@ -2,23 +2,9 @@ import React from "react";
 import Footer from "./Footer";
 import style from "./Home.module.css";
 import NavBar from "./NavBar";
-import Logo from "../images/LOLoficial.webp"
-import facebook from "../images/facebook.png";
-import youtube from "../images/youtube.png";
-import instagram from "../images/instagram.png";
-import twitter from "../images/twitter.png";
-import discord from "../images/discord.png";
-import divider from "../images/divider.png";
-import sett from "../images/champion-sett.webp";
-import graves from "../images/tf-graves-pride-banner.webp";
-import grieta from "../images/Summoner.webp";
-import Tft from "../images/Teamfight_Tactics.webp";
-import aram from "../images/Abyss.webp";
 
 import {
     BrowserRouter as Router,
-    Routes,
-    Route,
     Link
 } from "react-router-dom";
 
@@ -42,7 +28,7 @@ function Home () {
     <NavBar/>
     <section className={style.Section1}>
         <div className={style.Titulo}>
-            <img className={style.Lol} src={Logo} />
+            <img className={style.Lol} src="https://i.imgur.com/cbl6Yed.png" />
         </div>
     </section>
 
@@ -54,19 +40,19 @@ function Home () {
                 </div>
                 <div className={style.Icons}>
                     <a className={style.Alink} href="https://www.instagram.com/juegalol/">
-                    <img src={instagram} />
+                    <img src="https://i.imgur.com/4jUIvNb.png" />
                     </a>
                     <a className={style.Alink} href="https://discordapp.com/invite/riotgameslatam">
-                    <img src={discord} />
+                    <img src="https://i.imgur.com/LOQIpZM.png" />
                     </a>
                     <a className={style.Alink} href="https://twitter.com/lollatam">
-                    <img src={twitter} />
+                    <img src="https://i.imgur.com/tGttBjO.png" />
                     </a>
                     <a className={style.Alink} href="https://www.facebook.com/LeagueofLegendsLatino/">
-                    <img src={facebook} />
+                    <img src="https://i.imgur.com/No6Q9pp.png" />
                     </a>
                     <a className={style.Alink} href="https://www.youtube.com/user/RiotGamesLatino/">
-                    <img src={youtube} />
+                    <img src="https://i.imgur.com/vx20Wyo.png" />
                     </a>
                 </div>
                 </div>
@@ -78,7 +64,7 @@ function Home () {
             <h3 className={style.Cabeza}>Últimas Noticias</h3>
         </div>
         <div className={style.Deco}>
-            <img className={style.Divi} src={divider} />
+            <img className={style.Divi} src="https://i.imgur.com/mC9Eroy.png" />
         </div>
     </div>
 
@@ -86,7 +72,7 @@ function Home () {
     <ul className={style.CNoticias}>
         <li className={style.Noticias}>
             <div className={style.FotoN}>
-                <img className={style.FotosN} src={sett}/>
+                <img className={style.FotosN} src="https://i.imgur.com/WUZM4Y1.jpg"/>
             </div>
             <div className={style.TituloN}>
                 <div className={style.TituloC}>
@@ -100,7 +86,7 @@ function Home () {
         </li>
         <li className={style.Noticias}>
             <div className={style.FotoN}>
-                <img className={style.FotosN} src={graves}/>
+                <img className={style.FotosN} src="https://i.imgur.com/TqE1YWm.png"/>
             </div>
             <div className={style.TituloN}>
                 <div className={style.TituloC}>
@@ -132,7 +118,7 @@ function Home () {
             <ul className={style.Ccards}>
                 <li className={style.Cards}>
                 <div className={style.CardfondoG}>
-                <img className={style.icono} src={grieta}/>
+                <img className={style.icono} src="https://i.imgur.com/6eA8PdK.png"/>
                 <h3 className={style.modo}>Grieta Del <br /> Invocador</h3>
                 <p className={style.Rt}>EL MODO DE JUEGO MÁS POPULAR </p>
                 <p className={style.resu}>
@@ -143,7 +129,7 @@ function Home () {
                 </li>
                 <li className={style.Cards}>
                 <div className={style.CardfondoA}>
-                <img className={style.icono} src={aram}/>
+                <img className={style.icono} src="https://i.imgur.com/jjJffMq.png"/>
                 <h3 className={style.modo}>ARAM</h3>
                 <p className={style.Rt}>Campeones aleatorios en un solo carril </p> 
                 <p className={style.resu}>
@@ -154,7 +140,7 @@ function Home () {
                 </li>
                 <li className={style.Cards}>
                 <div className={style.CardfondoT}>
-                <img className={style.icono} src={Tft}/>
+                <img className={style.icono} src="https://i.imgur.com/t8YFAdo.png"/>
                 <h3 className={style.modo}>Team Figth Tactics</h3>
                 <p className={style.Rt}>Una guerra por la supremacía, todos contra todos.</p>
                 <p className={style.resu}>

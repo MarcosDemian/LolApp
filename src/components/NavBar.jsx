@@ -1,11 +1,7 @@
 import React from "react";
 import style from "./NavBar.module.css";
-import riot from "../images/puño.png"
-import lol from "../images/loll.png"
 import {
     BrowserRouter as Router,
-    Routes,
-    Route,
     Link
   } from "react-router-dom";
 
@@ -14,9 +10,9 @@ function NavBar(){
         <div className={style.Sticky}>
             <div className={style.Container}>
             <div className={style.Iconos}>
-            <img className={style.Riot} src={riot} />
+            <img className={style.Riot} src="https://i.imgur.com/d7gxxct.png" />
             <hr/>
-            <img className={style.Lol} src={lol} />
+            <img className={style.Lol} src="https://i.imgur.com/sItL8My.png" />
             </div>
             <div className={style.Links}>
                 <Link to="/home">

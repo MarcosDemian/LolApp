@@ -1,11 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "./Footer.module.css";
-import facebook from "../images/facebook-circle.png";
-import youtube from "../images/youtube.png";
-import instagram from "../images/instagram.png";
-import reddit from "../images/reddit.png";
-import twitter from "../images/twitter.png";
-import range from "../images/latam.png";
 import { Link } from "react-router-dom";
 
 function Footer () {
@@ -20,27 +14,27 @@ function Footer () {
             <ul className={style.Social}>
                 <li className={style.Lista}>
                 <a href="https://www.youtube.com/user/RiotGamesLatino/">
-                <img className={style.svg} src={youtube}/>
+                <img className={style.svg} src="https://i.imgur.com/vx20Wyo.png"/>
                 </a>
                 </li>
                 <li className={style.Lista}>
                 <a href="https://twitter.com/lollatam">
-                <img className={style.svg} src={twitter}/>
+                <img className={style.svg} src="https://i.imgur.com/tGttBjO.png"/>
                 </a>
                 </li>
                 <li className={style.Lista}>
                 <a href="https://www.facebook.com/LeagueofLegendsLatino/">
-                <img className={style.svg} src={facebook}/>
+                <img className={style.svg} src="https://i.imgur.com/No6Q9pp.png"/>
                 </a>
                 </li>
                 <li className={style.Lista}>
                 <a href="https://www.instagram.com/juegalol/">
-                <img className={style.svg} src={instagram}/>
+                <img className={style.svg} src="https://i.imgur.com/4jUIvNb.png"/>
                 </a>
                 </li>
                 <li className={style.Lista}>
                 <a href="https://www.reddit.com/r/leagueoflegends/">
-                <img className={style.svg} src={reddit}/>
+                <img className={style.svg} src="https://i.imgur.com/KEhRuRd.png"/>
                 </a>
                 </li>
             </ul>
@@ -57,7 +51,7 @@ function Footer () {
             <div className={style.Range}>
                 <div className={style.ContentRange}>
                     <div className={style.ContentRange1}>
-                        <img src={range} />
+                        <img src="https://i.imgur.com/KgSHBeP.png" />
                         <div className={style.text}>
                         Sangre
                         <br/>
