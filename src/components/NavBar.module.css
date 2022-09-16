@@ -1,21 +1,21 @@
 @font-face{
-    font-family: "FrizQuadrataRegular";
-    src: url(../typography/Friz\ Quadrata\ Regular.ttf);
+  font-family: "FrizQuadrataRegular";
+  src: url(../typography/Friz\ Quadrata\ Regular.ttf);
 }
 
 @font-face{
-    font-family: "FrizQuadrataBold";
-    src: url(../typography/Friz\ Quadrata\ Bold.otf);
+  font-family: "FrizQuadrataBold";
+  src: url(../typography/Friz\ Quadrata\ Bold.otf);
 }
 
 @font-face{
-    font-family: "FrizQuadrataItalic";
-    src: url(../typography/Friz\ Quadrata\ Italic.ttf);
+  font-family: "FrizQuadrataItalic";
+  src: url(../typography/Friz\ Quadrata\ Italic.ttf);
 }
 
 @font-face{
-    font-family: "FrizQuadrataMedium";
-    src: url(../typography/Friz\ Quadrata\ Std\ Medium.otf);
+  font-family: "FrizQuadrataMedium";
+  src: url(../typography/Friz\ Quadrata\ Std\ Medium.otf);
 }
 
  .Sticky{
