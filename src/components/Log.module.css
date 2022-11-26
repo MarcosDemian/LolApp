@@ -99,3 +99,60 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 430px){
+  .container{
+    justify-content: center;
+  }
+
+  .login{
+    bottom: 0;
+    height: 85%;
+    width: 90%;
+    border: solid 2px rgb(208, 168, 92);
+  }
+
+  .image{
+    height: 40%;
+  }
+}
+
+@media screen and (min-width: 430px){
+  .container{
+    justify-content: center;
+  }
+
+  .login{
+    bottom: 0;
+    height: 85%;
+    width: 90%;
+    border: solid 2px rgb(208, 168, 92);
+  }
+
+  .image{
+    height: 40%;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .container{
+    justify-content: flex-start;
+  }
+
+  .login{
+    height: 100%;
+    width: 35%;
+    border: none;
+    border-right: solid 2px rgb(208, 168, 92);
+  }
+
+  .image{
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .login{
+    width: 25%;
+  }
+}

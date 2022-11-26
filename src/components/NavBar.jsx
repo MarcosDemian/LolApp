@@ -21,9 +21,6 @@ function NavBar(){
                 <Link to="/characters">
                 <p className={style.li}>Campeones</p>
                 </Link>
-                <Link to="/seeker">
-                <p className={style.li}>Buscador De Invocador</p>
-                </Link>
             </div>
         </div>
         </div>

@@ -77,7 +77,7 @@ function Home () {
             <div className={style.TituloN}>
                 <div className={style.TituloC}>
                 <h3 className={style.Titulos}>CONVIÉRTETE EN EL JEFE</h3>
-                <p>
+                <p className={style.Parrafos}>
                 Analiza todos los campeones, elige el que más te guste para combatir 
                 y conviértete en el jefe de la arena
                 </p>
@@ -100,7 +100,7 @@ function Home () {
     <section className={style.Section6}>
         <div className={style.Content6}>
           <Link to="/characters">
-          <div>
+          <div className={style.Champ_titl}>
             <p className={style.subTC}>Miles de</p>
             <h3 className={style.TitC}>Campeónes</h3>
             </div>
@@ -111,9 +111,6 @@ function Home () {
     <div className={style.space}></div>
 
     <section className={style.Section7}>
-        <div  className={style.Guia2}>
-        <h4>MODOS DE JUEGO ▬</h4>
-        </div>
         <div className={style.CardsC}>
             <ul className={style.Ccards}>
                 <li className={style.Cards}>
@@ -171,17 +168,6 @@ function Home () {
     </section>
         
     <div className={style.space}></div>
-
-    <section className={style.Section4}>
-    <div className={style.Seeker}>
-        <h2> Busca un Invocador</h2>
-        <div className={style.Con_Boton}>
-        <Link to="/seeker">
-        <button className={style.Invocadores}><span>Buscar</span></button>
-        </Link>
-        </div>
-    </div>
-    </section>
 
     <div className={style.space}></div>
     <section className={style.Section5}>
