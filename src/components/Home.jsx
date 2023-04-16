@@ -107,8 +107,8 @@ function Home () {
           </Link>
         </div>
     </section>
-        
-    <div className={style.space}></div>
+
+    {/* <div className={style.space}></div>
 
     <section className={style.Section7}>
         <div className={style.CardsC}>
@@ -167,7 +167,7 @@ function Home () {
     </div>
     </section>
         
-    <div className={style.space}></div>
+    <div className={style.space}></div>  */}
 
     <div className={style.space}></div>
     <section className={style.Section5}>
